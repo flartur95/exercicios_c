@@ -7,8 +7,8 @@ int main(){
 	int peso1 = 4; //variaveis inteiras
 	int peso2 = 4;
 	int peso3 = 2;
-	//explica pesos
-	printf("A primeira nota tem peso 4, a segunda prova tem peso 4 e a terceira tem peso 2.\n");
+	//explica os pesos nas notas e concatena, conforme se mudar na variavel
+	printf("A primeira nota tem peso %d, a segunda prova tem peso %d e a terceira tem peso %d.\n", peso1, peso2, peso3);
 
 	printf("Digite sua primeira nota: \n");
 	scanf("%f",&nota1);
