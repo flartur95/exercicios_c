@@ -5,7 +5,7 @@ milimetros (25.4 mm = 1 polegada).*/
 int main(){
 
 	int chuvapolegada;
-	float chuvamilimetro;
+	float chuvamilimetro; //float por que ele pode devolver a conversão para decimal
 	
 	printf("Insira a quantidade de chuva em polegadas: \n");
 	scanf("%d",&chuvapolegada);
